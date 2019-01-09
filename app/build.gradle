@@ -16,6 +16,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    //for Android 9 compatibility
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
