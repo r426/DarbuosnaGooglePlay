@@ -12,8 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:networkSecurityConfig="@xml/network_security_config">
-        //File network_security_config.xml was created to allow URL requests without encryption (HTTP)
-        //created by Xenolion, StackOverflow Aug 17 '18 at 20:44
+
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -28,7 +27,7 @@
             android:resource="@array/preloaded_fonts" />
         <activity android:name=".ListOfProverbsActivity" />
 
-        //for Android 9 compatibility
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
