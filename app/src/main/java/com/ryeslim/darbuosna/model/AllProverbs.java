@@ -51,7 +51,7 @@ public class AllProverbs {
      */
     public void setLoadingQue(RequestQueue loadingQue) {
         this.loadingQue = loadingQue;
-        JsonArrayRequest arrReq = new JsonArrayRequest(Request.Method.GET, "https://api.myjson.com/bins/1aqq72",
+        JsonArrayRequest arrReq = new JsonArrayRequest(Request.Method.GET, "https://api.npoint.io/f998baa4aa924459986d",
                 new Response.Listener<JSONArray>() {
                     @Override
                     public void onResponse(JSONArray response) {
